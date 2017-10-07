@@ -1,7 +1,6 @@
 package com.example.model;
 
 import java.util.List;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,9 +9,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CourseModel {
-	private String id_Course;
+	private String id_course;
 	private String name;
 	private Integer credits;
-	private List<StudentModel> students;
+	private List <StudentModel> students;
 }
-
